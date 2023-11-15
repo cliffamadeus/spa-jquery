@@ -1,5 +1,10 @@
-.bermudo-h4{
+.bh4{
     color: grey;
     font-family: 'Courier New';
-    left: 15%;
+    margin-left: 5%;
+}
+.bh6{
+    color: grey;
+    font-family: 'Courier New';
+    margin-left: 10%;
 }
