@@ -59,3 +59,7 @@ $(document).ready(function() {
   // Load initial content based on the current URL
   loadContent(location.pathname);
   
+$('nav a').on('click', function(event) {
+    $('nav a').removeClass('app-nav-btn-active');
+    $(this).addClass('app-nav-btn-active');
+});
