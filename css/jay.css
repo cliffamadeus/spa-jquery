@@ -5,10 +5,10 @@
 
 .jay-h1{
     font-family: fantasy;
-color: rgb(255, 0, 0);
+color: rgb(249, 10, 249);
 font-style: initial;
 font-weight: bolder;
-background-color: black;
+background-color: rgb(148, 8, 8);
 }
 .jay-p{
     color: blue;
@@ -28,12 +28,14 @@ background-color: black;
 
 .tiptip-p{
     color: cyan;
-    background-color: black;
+    background-color: rgb(250, 0, 0);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-size: xx-large;
 
 }
+
 body{
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
+    background-image: url(' https://imgs.search.brave.com/LWMHAuRN-7UeSO5pHXuvkGW6yL544Sd4MBzAOpVhOkw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS50ZW5vci5jb20v/WnFabE9MRHkwLVFB/QUFBai9nZXQtb3V0/LmdpZg.gif');
 }
