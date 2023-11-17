@@ -1,3 +1,9 @@
 .cliff-h1{
     color: #99ccff;
 }
+.hobby-h1{
+    text-align: center;
+    color: chartreuse;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: brown;
+}
