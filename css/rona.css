@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://unblast.com/wp-content/uploads/2021/01/Space-Background-Image-8.jpg'); /* Replace 'your-background-image.jpg' with the actual path to your background image */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #333;  
+}
+
+h1 {
+    color: #fff;  
+    background-color: #3498db; /* Header background color */
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px;
+    color: #d7c9c9; /* Paragraph text color */
+}
