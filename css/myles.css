@@ -1,8 +1,19 @@
 body {
-    background-image: url('https://scontent.fmnl25-4.fna.fbcdn.net/v/t39.30808-6/393011178_321959583853686_999969092173183375_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF4Ef9pCkp4SE9VO_VP1H1A33Wn3e8Kp9_fdafd7wqn34xOtwyLfiz3m3py-huwxtUEQwy43ZcyzI8ugvmfZ4fP&_nc_ohc=AIQvuDIfTWUAX-j2u3p&_nc_ht=scontent.fmnl25-4.fna&oh=00_AfBlde6xZx5UUho2E1sqajbXrjtD2z7LighQMHUlYjVFXg&oe=655C791C');
+ 
+   background-image: url('https://scontent.fmnl25-1.fna.fbcdn.net/v/t39.30808-6/283896675_114750581241255_1367888653709728419_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGE1k7C86w1QRcxyHj0RrTe5SbapanDsAvlJtqlqcOwC4Kg4WGUn3leaEGAl9PDhaX-vVdoQYEjaPjP198LPHCx&_nc_ohc=tMIfT4eR93kAX-SRcbu&_nc_ht=scontent.fmnl25-1.fna&oh=00_AfBwmtOE1xShRBjED8szsucWYOD6aaQMil8tIOVmV-gFjw&oe=655CBFB7');
 }
 .SELYM-h1{
-    color:violet;
+    color:rgb(200, 0, 255);
     text-align: center;
-    font-weight: 900;
+    font-weight: 1000;
+}
+p{
+    font-weight: bold;
+    font-style: oblique;
+   color: rgb(9, 18, 18);
+}
+.MYLES-h1{
+    color: rgb(200, 0, 255);
+    text-align: center;
+    font-weight: 1000;
 }
