@@ -4,4 +4,9 @@ body {
     background-size: cover; /* or 'contain' or a specific size */
     background-position: center center; /* or any other position */
   }
-  
+  h1{
+    color: aliceblue;
+  }
+  li{
+  color: aliceblue;
+  }
