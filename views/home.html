@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meryl Grace - Portfolio</title>
+    <!-- Include jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 <body>
 <header>
@@ -21,6 +23,38 @@
 <footer>
     <p>&copy; 2023 Meryl Grace. All Rights Reserved.</p>
 </footer>
+
+<script>
+    $(document).ready(function () {
+        var projectsData = [
+            { title: 'Project 1', 
+            description: 'A basic calculator.',
+            image: '' },
+            { title: 'Project 2', 
+            description: 'A basic calculator with binary or and binary and.',
+            image: '' },
+            { title: 'Project 3', 
+            description: 'A collaboration with all the 2nd Year BSIT Students',
+            image: '',
+            url: ''}
+            // Add more projects as needed
+        ];
+
+        var projectsContainer = $('#projects .container');
+        projectsData.forEach(function (project) {
+            var projectLink = project.url ? `<a href="${project.url}" target="_blank">` : '';
+            var projectCard = `
+                <div class="project-card">
+                    ${projectLink}
+                    <img src="${project.image}" alt="${project.title}">
+                    <h2>${project.title}</h2>
+                    <p>${project.description}</p>
+                    ${projectLink ? '</a>' : ''}
+                </div>`;
+            projectsContainer.append(projectCard);
+        });
+    });
+</script>
 
 </body>
 </html>
