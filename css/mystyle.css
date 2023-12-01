@@ -13,17 +13,12 @@
     font-weight: 700;
 }
 .hobby-h1{
+    color: #99ccff;
     text-align: center;
-    color: chartreuse;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: brown;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.hobby-p{
-    text-align: center;
-    color: blue;
-    font-size: large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+
 * {
     margin: 0;
     padding: 0;
