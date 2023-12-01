@@ -1,0 +1,23 @@
+.bg {
+  
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/227/256/2/blue-white-material-design-minimal-art-wallpaper-preview.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    height: 44.9vw;
+  }
+  h1{
+    color: black;
+    text-align: center;
+    font-size:60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  p{
+    text-align: center;
+    font-size: 30px;
+  }
+  li{
+    text-align: center;
+    font-size: 15px;
+  }

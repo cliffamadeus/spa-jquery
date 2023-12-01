@@ -1,0 +1,47 @@
+.bg {
+  
+    background-image: url('https://i.pinimg.com/originals/7e/18/33/7e1833aa420a6f12c536fb3edb0e282d.gif');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    height: 44.9vw;
+  }
+  /* Apply styles to the container or image as needed */
+  .image-container {
+    width: 100%; /* Set the width of the container */
+    text-align: center; /* Center the image horizontally */
+    position: fixed;/* Use relative positioning */
+  }
+
+  .image-container img {
+    width: 40%; /* Set the width of the image */
+    height: auto; /* Maintain the aspect ratio of the image */
+    max-width: none; /* Remove the maximum width constraint */
+    max-height: none; /* Remove the maximum height constraint */
+    position: fixed; /* Use absolute positioning */
+    top: -200px; /* Center the image vertically */
+    left: 1100px; /* Center the image horizontally */
+   
+  }
+  h1 {
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px;
+    left: 500px;
+    color: azure;
+    -webkit-text-stroke: 5px black; /* For webkit-based browsers like Chrome and Safari */
+    
+  }
+  
+  
+  h2{
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200px;
+    top: 300px;
+    left: 100px;
+    color: azure;
+    -webkit-text-stroke: 5px black;
+  }
+

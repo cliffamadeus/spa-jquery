@@ -1,0 +1,68 @@
+.bg {
+  
+    background-image: url('https://i.pinimg.com/originals/a6/e3/29/a6e3293a68cdda821ebde3389171a14a.gif');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    height: 44.9vw;
+  }
+h1{
+    font-size: 150px;
+    margin-left: 450px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 255, 255);
+    -webkit-text-stroke: 3px black;
+}
+p{
+    font-size: 30px;
+    left: 450px;
+    color: rgb(251, 255, 0);
+    top: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 2mm 2mm;
+}
+th, td {
+    text-align: center;
+    padding: 10px;
+    border: 1mm solid #fcfafa;
+    border-style: groove;
+    background-color: rgba(255, 255, 255, 0.1); 
+    font-family: 'Arial', sans-serif;
+    width: 33%;
+    height: 50px;
+}
+th {
+    background-color: rgba(51, 51, 51, 0.1); 
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+}
+
+caption {
+    font-size: 200px;
+    color: rgba(243, 17, 17, 1.2); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    border-color: rgb(224, 57, 57);
+    -webkit-text-stroke: 5px rgb(240, 238, 238);
+    
+    
+    
+}
+body {
+    background-image: url('https://img.freepik.com/free-vector/realistic-background-futuristic-style_23-2149129125.jpg?size=626&ext=jpg&ga=GA1.2.386372595.1697587200&semt=ais');
+    background-size: cover;
+    font-family: 'Times New Roman', serif;
+}
+.centered-text {
+    text-align: center;
+    font-size: 50px;
+    color: aqua;
+    font-style: italic;
+    font-family: 'Arial', serif;
+}
