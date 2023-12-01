@@ -28,3 +28,14 @@ header p {
     margin: 0;
     font-size: 1.2em;
 }
+
+section {
+    padding: 40px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
