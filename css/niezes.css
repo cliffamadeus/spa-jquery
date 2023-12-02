@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://images.rapgenius.com/ecfbf63dfd2735f04bbf90b5015311a9.622x350x74.gif');
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    margin-right: 20px;
+   
+}
+nav {
+  background-size: 50%;
+  padding: 10px;
+   text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+  background-color: #555;
+}
+
+section {
+  padding: 20px;
+}
+
+
+@keyframes fadeInBackgroundColor {
+  from {
+      background-color: #928c8c;
+  }
+  to {
+      background-color: #333; 
+  }
+}
+
+
+#home {
+  animation: fadeInBackgroundColor 3s ease-in-out;
+}
+
+
+#about {
+  animation: fadeInBackgroundColor 3s ease-in-out;
+}
+
+section {
+  padding: 20px;
+}
+.profile-image {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 70%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-left: 165px;
+}
+
+.profile-image img {
+  width: 100%; 
+  height: auto; 
+}
+h1{
+  color: rgb(104, 100, 108);
+  font-weight: 900;
+ font-family: 'Times New Roman', Times, serif;
+}
+p{
+  color: rgb(160, 166, 167);
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 900;
+     font-style: oblique;
+ }
