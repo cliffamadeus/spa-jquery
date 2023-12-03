@@ -81,3 +81,7 @@ p{
      font-weight: 900;
      font-style: oblique;
  }
+ .w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+  color: #000!important;
+  background-color: #a9a1a1!important;
+}
