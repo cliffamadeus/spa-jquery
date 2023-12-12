@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .colorful-name {
+    font-size: 3em;
+  }
+  
+  .letter {
+    --hue: 0; /* Default hue */
+    display: inline-block;
+    color: hsl(var(--hue), 70%, 60%);
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .letter:hover {
+    color: hsl(calc(var(--hue) + 50), 70%, 60%);
+  }
+  
+  /* Reset some default styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styles for the about us section */
+  .about-us {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Styles for the colorful text */
+  .colorful-text {
+    background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
