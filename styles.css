@@ -1,0 +1,174 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYjeRjJJzAAyQGrfGpmzSyn4dG4HJ1PtocRw&usqp=CAU);
+
+     
+}
+.navbar{
+    color: whitesmoke;
+    top: 0%;
+    position: fixed;
+    text-decoration-color: aqua;
+
+    height: 50px;
+    width:50%;
+    margin-left: 400px;
+    font-size:xx-large;
+    font-weight: bolder;
+}
+
+.home {
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+
+    .title {
+        font-size: 60px;
+        font-weight: bolder;
+        font-family: Verdana;
+        margin-top: 100px;
+        margin-left: 300px;
+    }
+
+    .desc {
+        font-family: 'Courier New';
+    }
+}
+
+.pic {
+    transition: filter 0.5s ease;
+}
+
+.robert-content {
+    transition: opacity 0.5s ease;
+}
+
+.about {
+    text-align: center;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    .title {
+        font-size: 75px;
+        font-weight: bolder;
+        font-family: Verdana;
+        margin-top: 180px;
+        margin-left: 230;
+    }
+   
+    .robert {
+        padding: 20px;
+        height: 400px;
+        width: 60%;
+        border-style: solid;
+        border-color: black;
+        border-radius: 40px;
+        float: center;
+    }
+    
+    .robert .pic {
+        transition: 0.5s ease;
+    }
+    
+    .robert:hover .pic {
+        box-shadow: 0 0 0 10px whitesmoke;
+        transition: 0.5s ease;
+    }
+
+    .fadd {
+    cursor: pointer;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.breaker{
+    margin-top: 40px;
+}
+
+.projects {
+    text-align: left;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    .title {
+        font-size: 75px;
+        font-weight: bolder;
+        font-family: Verdana;
+        margin-top: 120px;
+    }
+    .desc {
+        font-family: 'Courier New';
+    }
+}
+
+.resume {
+    text-align: center;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+
+    .title {
+        font-size: 75px;
+        font-weight: bolder;
+        font-family: Verdana;
+        margin-top: 100px;
+    }
+    .desc {
+        font-family: 'Courier New';
+    }
+  
+    .robert {
+        padding: 30px;
+        height: 500px;
+        width: 48%;
+        border-style: solid;
+        border-color: black;
+        border-radius: 30px;
+        float: center;
+    }
+}
+.contacts {
+    text-align: center;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    font-family: 'Courier New';
+
+    .title {
+        font-size: 75px;
+        font-weight: bolder;
+        font-family: Verdana;
+        margin-top: 800px;
+    }
+    .desc {
+        font-family: 'Courier New';
+    }
+
+   
+
+    button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+        }
+    
+        button:hover {
+        transform: scale(1.1);
+        }
+    
+        button img {
+        transition: transform 0.3s ease-in-out;
+        }
+    
+        button:hover img {
+        transform: scale(1.1);
+        }
+}
